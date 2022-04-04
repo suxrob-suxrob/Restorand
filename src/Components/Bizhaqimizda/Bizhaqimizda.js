@@ -1,0 +1,17 @@
+import React from "react";
+import "../Bizhaqimizda/bizxaqimizda.scss";
+
+const Bizhaqimizda = () => {
+    return (
+        <>
+           <div>
+                 <h1 className="text-center color-red">Biz haqimizda</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim esse corrupti, impedit dolore, repudiandae, et dicta nemo ullam similique neque eveniet hic. Perferendis, earum. Illo aut fugiat perspiciatis voluptatem fuga exercitationem minus expedita hic consequuntur animi a aperiam numquam illum nobis quisquam, facere modi temporibus quidem sapiente vero cum nostrum. Necessitatibus, officia itaque, minima amet cupiditate aut perspiciatis architecto mollitia nemo corporis unde perferendis error quod placeat at, ullam sapiente porro voluptatem! Animi officiis ratione blanditiis sit quod repellat asperiores at, eligendi odit quisquam labore sequi optio nulla explicabo adipisci. Maiores omnis assumenda necessitatibus quibusdam ipsa vel dolor aperiam quae?</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim esse corrupti, impedit dolore, repudiandae, et dicta nemo ullam similique neque eveniet hic. Perferendis, earum. Illo aut fugiat perspiciatis voluptatem fuga exercitationem minus expedita hic consequuntur animi a aperiam numquam illum nobis quisquam, facere modi temporibus quidem sapiente vero cum nostrum. Necessitatibus, officia itaque, minima amet cupiditate aut perspiciatis architecto mollitia nemo corporis unde perferendis error quod placeat at, ullam sapiente porro voluptatem! Animi officiis ratione blanditiis sit quod repellat asperiores at, eligendi odit quisquam labore sequi optio nulla explicabo adipisci. Maiores omnis assumenda necessitatibus quibusdam ipsa vel dolor aperiam quae?</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim esse corrupti, impedit dolore, repudiandae, et dicta nemo ullam similique neque eveniet hic. Perferendis, earum. Illo aut fugiat perspiciatis voluptatem fuga exercitationem minus expedita hic consequuntur animi a aperiam numquam illum nobis quisquam, facere modi temporibus quidem sapiente vero cum nostrum. Necessitatibus, officia itaque, minima amet cupiditate aut perspiciatis architecto mollitia nemo corporis unde perferendis error quod placeat at, ullam sapiente porro voluptatem! Animi officiis ratione blanditiis sit quod repellat asperiores at, eligendi odit quisquam labore sequi optio nulla explicabo adipisci. Maiores omnis assumenda necessitatibus quibusdam ipsa vel dolor aperiam quae?</p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim esse corrupti, impedit dolore, repudiandae, et dicta nemo ullam similique neque eveniet hic. Perferendis, earum. Illo aut fugiat perspiciatis voluptatem fuga exercitationem minus expedita hic consequuntur animi a aperiam numquam illum nobis quisquam, facere modi temporibus quidem sapiente vero cum nostrum. Necessitatibus, officia itaque, minima amet cupiditate aut perspiciatis architecto mollitia nemo corporis unde perferendis error quod placeat at, ullam sapiente porro voluptatem! Animi officiis ratione blanditiis sit quod repellat asperiores at, eligendi odit quisquam labore sequi optio nulla explicabo adipisci. Maiores omnis assumenda necessitatibus quibusdam ipsa vel dolor aperiam quae?</p>
+           </div>
+        </>
+    )
+}
+export default Bizhaqimizda;

@@ -1,0 +1,29 @@
+.food {
+    width: 1240px;
+    .container-fluid {
+        position: relative;
+        width: 100%;
+        min-height: 101vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("../img/Rasm1.png");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        .input {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .app {
+                width: 234px;
+                height: 57px;
+                font-size: 25px;
+                color: #fff;
+                margin: 18px;
+                border-radius: 8px;
+            }
+        }
+    }
+   
+}

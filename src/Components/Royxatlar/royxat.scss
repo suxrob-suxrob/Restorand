@@ -1,0 +1,99 @@
+.container-fluid {
+    width: 1240px;
+    .cap {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        padding-bottom: 50px;
+        width: 1240px;
+        
+        .sux1 {
+            .modal-fluid {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 5px;
+                .modal_content {
+                    border: 1px solid #fff;
+                    border-radius: 53px 5px;
+                    width: 96%;
+                    margin-top: 50px;
+                    box-shadow: 0px 4px 12px  rgba(0, 0, 0, 0.644);
+                    .modal_text {
+                        .product_info {
+                            display: flex;
+                            .time {
+                                text-align: left;
+                                font-family: inherit;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 18px;
+                                line-height: 0px;
+                                color: #363853;
+                                opacity: 0.9;
+                            }
+                            button {
+                                width: 79px;
+                                border: 1px solid #fff;
+                                height: 33px;
+                                background: #FF7A50;
+                                border-radius: 20px 20px 0px 20px;
+                                margin-left: 55px;
+                                box-shadow: none;
+                                img {
+                                    width: 17px;
+                                    color: #fff;
+                                }
+                            
+                            }
+                        }
+                        
+                    }
+                    p {
+                        padding-top: 22px;
+                        margin-left: 20px;
+                        text-align: left;
+                        font-family: 'Rubik';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 30px;
+                        color: #363853;
+                    }
+                    .modal_img1 {
+                        padding-bottom: 25px;
+                    }
+                    p {
+                        display: flex;
+                        justify-content: flex-start;
+                        margin: -1px;
+                        margin-left: 15px;
+                    }   
+                }  
+             }  
+        }
+    }   
+            h4 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding-top: 43px;
+                color: rgba(0, 0, 0, 0.609);
+            }
+}
+   @media  (max-width: 821px ) {
+    .royxat2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap:  wrap-reverse;
+        width: 50%;
+        margin-left: 25%;
+        .activ-fluid {
+            padding-top: 25px;
+        }
+        
+      }
+ } 
+   
