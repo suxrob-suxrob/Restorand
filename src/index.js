@@ -9,8 +9,8 @@ import Xarid from './XaridQilish';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      {/* < Xarid /> */}
-      < App />
+      < Xarid />
+      {/* < App /> */}
     </BrowserRouter>
     
   </React.StrictMode>,

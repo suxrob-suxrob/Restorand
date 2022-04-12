@@ -25,7 +25,7 @@ const Xarid = () => {
                             <hr />
                         </div>
                         <div className="product_radio2">
-                            <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+                            <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"/>
                                <label className="form-check-label" htmlFor="flexRadioDefault2">
                                  <span>Bigger</span>
                                </label>
