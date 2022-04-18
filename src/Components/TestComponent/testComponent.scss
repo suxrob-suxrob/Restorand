@@ -17,6 +17,7 @@ nav {
                 font-weight: bold;
                 color: #000;
                 text-decoration: none;
+                cursor: pointer;
             }
             form {
                 .form-control {
@@ -58,6 +59,21 @@ nav {
             background-size: cover;
             background-repeat: no-repeat;
             object-fit: cover;
+        }
+    }
+    .menyu_item {
+        width: 100%;
+        position: relative;
+        .menyu_item2 {
+            display: flex;
+            position: relative;
+            p{
+                margin: 20px;
+                font-size: 19px;
+                font-weight: 400;
+                font-family: 'Roboto', sans-serif;
+                cursor: pointer;
+            }
         }
     }
 }

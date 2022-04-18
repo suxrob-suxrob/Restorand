@@ -11,13 +11,19 @@ const TestComponent = ({title,text,tex2,text3,text4}) => {
             
         }, 1000);
     }
+    const imge = () => {
+        setTimeout(() => {
+            navigate("/XaridQilish");
+            
+        }, 1000);
+    }
     return (
         <>
            <nav className="navbar navbar-light bg-light">
                 <div className="container-lg">
                     <div className="container">
                         <div className="nav-content">
-                            <a className="navbar-brand">Restoran</a>
+                            <a onClick={handleClick} className="navbar-brand">Restoran</a>
                             <form className="d-flex">
                                 <input className="form-control me-2" type="search" placeholder="Restoran yoki taom nomi" aria-label="Search"/>
                                 <button className="btn btn-outline-success" type="submit">Search</button>
@@ -30,7 +36,17 @@ const TestComponent = ({title,text,tex2,text3,text4}) => {
                   </div>
                   <div className="container-xl">
                         <div className="Restoran_img">
-                            <img className="resPage-fluid" src={Anqara} alt="Restoran" />
+                            <img onClick={imge} className="resPage-fluid" src={Anqara} alt="Restoran" />
+                       </div>
+                       <div className="menyu_item">
+                           <div className="menyu_item2">
+                               <p>Fast Food</p>
+                               <p>Pitsalar</p>
+                               <p>kombo</p>
+                               <p>ichimliklar</p>
+                               <p>Salatlar</p>
+                               <p>Sous</p>
+                           </div> 
                        </div>
                 </div>
             </nav>

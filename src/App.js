@@ -10,6 +10,7 @@ import Foydalanish from './Components/Foydalanish/Foydalanish';
 import Boglanish from './Components/Bog\'lanish/Bog\'lanish';
 import Prducts from './Components/Prducts/Prducts';
 import MenyuRestorand from './Components/MenyuRestorant/MenyuRestorand';
+import Xarid from './Components/Xarid/XaridQilish';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path='/boglanish' element={<Boglanish />} />
               <Route path='/prducts' element={<Prducts />} />
               <Route path='/menyuRes' element={<MenyuRestorand />} />
+              <Route path='/XaridQilish'element={<Xarid />} />
            </Routes>
         </div>
         <Footer title="Sayt JAFTN IT- kompaniyasi tomonidan ishlab chiqilgan." text="MYRESTORANT" text2="Mazali Taomlarni yetkazib berish" />
