@@ -1,5 +1,6 @@
 .food {
-    width: 1240px;
+    // width: 100%;
+    min-width: 1254px;
     .container-fluid {
         position: relative;
         width: 100%;
@@ -24,6 +25,67 @@
                 border-radius: 8px;
             }
         }
+        
     }
-   
+}
+@media (max-width: 1012px) {
+    .food {
+        min-height: 101vh;
+
+        
+    }
+}
+@media (max-width:999px) {  // для мобильных устройств
+        .container-fluid {
+            min-width: 65vh;
+        }
+    
+}
+@media (max-width: 973px) {  // для мобильных устройств
+       .food {
+        min-height: 150vh;
+        .container-fluid {
+           min-height: 150vh;
+        }
+       }
+    
+}
+
+@media (max-width: 768px) { // для мобильных устройств
+        .container-fluid {
+            min-width: 65vh;
+        }
+    .food {
+        .container-fluid {
+            min-height: 265vh;
+        }
+    }
+}
+
+@media (max-width: 423px) { // для мобильных устройств
+       
+    .food {
+        min-height: 290vh;
+        .container-fluid {
+            min-height: 290vh;
+        }
+    }
+}
+@media (max-width: 380px) { // для мобильных устройств
+       
+    .food {
+        min-height: 280vh;
+        .container-fluid {
+            min-height: 310vh;
+        }
+    }
+}
+@media (max-width: 352px) { // для мобильных устройств
+       
+    .food {
+        min-height: 190vh;
+        .container-fluid {
+            min-height: 350vh;
+        }
+    }
 }

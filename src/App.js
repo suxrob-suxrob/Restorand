@@ -12,10 +12,11 @@ import Prducts from './Components/Prducts/Prducts';
 import MenyuRestorand from './Components/MenyuRestorant/MenyuRestorand';
 import Xarid from './Components/Xarid/XaridQilish';
 
+
 function App() {
   return (
     <div className="App">
-      <div>
+      
         <div>
            <Routes>
               <Route path='/' element={< Order />} />
@@ -32,7 +33,7 @@ function App() {
         </div>
         <Footer title="Sayt JAFTN IT- kompaniyasi tomonidan ishlab chiqilgan." text="MYRESTORANT" text2="Mazali Taomlarni yetkazib berish" />
       </div>
-    </div>
+    
   );
 }
 

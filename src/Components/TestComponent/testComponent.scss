@@ -1,5 +1,38 @@
 nav {
     position: fixed;
+    .Anqara {
+       position: relative;
+       margin: 0 auto;
+        img {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            min-width: 1200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #000;
+            object-fit: cover;        
+        }
+    }
+    .menyu_restorand {
+        width: 45%;
+        margin-top: 15px;
+        cursor: pointer;
+        .menyu_content01 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+        .menyu_content {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 500;
+            font-size: 25px;
+            font-style: normal;
+            color: rgba(0, 0, 0, 0.703);
+            
+        }
+    }
 }
 
 .container-lg {
@@ -8,6 +41,7 @@ nav {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 25px;
+    max-width: 98%;
     .container {
         .nav-content {
             display: flex;
@@ -45,35 +79,13 @@ nav {
     }
 
 }
-.container-xl {
-    .Restoran_img {
-        margin-top: 8px;
-        margin-bottom: 25px;
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 100%);
-        position: relative;
-        .resPage-fluid {
-            width: 182vh;
-            height: 79vh;
-            background-color: #000;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            object-fit: cover;
-        }
-    }
-    .menyu_item {
-        width: 100%;
-        position: relative;
-        .menyu_item2 {
-            display: flex;
-            position: relative;
-            p{
-                margin: 20px;
-                font-size: 19px;
-                font-weight: 400;
-                font-family: 'Roboto', sans-serif;
-                cursor: pointer;
-            }
-        }
-    }
+.menu_component {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;  
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 60%;
 }

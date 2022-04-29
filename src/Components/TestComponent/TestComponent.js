@@ -1,8 +1,20 @@
-import React,{} from "react";
+import React,{useState} from "react";
 import { useNavigate } from "react-router-dom";
 import "./testComponent.scss";
+// import { MenuComponent } from "./MenuComponent";
 import Anqara from "../img/Anqara.jpg";
-const TestComponent = ({title,text,tex2,text3,text4}) => {
+import pitsa from "../img/burger1.png"
+import gamburger1 from "../img/gamburger1.svg";
+import gamburger3 from "../img/gamburger3.svg";
+import gamburger4 from "../img/gamburger4.svg";
+import gamburger5 from "../img/gamburger5.svg";
+import star from "../img/star_full.svg";
+import MenuComponent from "../MenyuComponents/MenuComponent";
+
+
+const TestComponent = (props) => {
+
+    const [menu,setMenu] = useState("");
     const navigate = useNavigate();
 
     const handleClick = () => {
@@ -11,12 +23,7 @@ const TestComponent = ({title,text,tex2,text3,text4}) => {
             
         }, 1000);
     }
-    const imge = () => {
-        setTimeout(() => {
-            navigate("/XaridQilish");
-            
-        }, 1000);
-    }
+    
     return (
         <>
            <nav className="navbar navbar-light bg-light">
@@ -34,22 +41,114 @@ const TestComponent = ({title,text,tex2,text3,text4}) => {
                         </div>
                     </div>                
                   </div>
-                  <div className="container-xl">
-                        <div className="Restoran_img">
-                            <img onClick={imge} className="resPage-fluid" src={Anqara} alt="Restoran" />
-                       </div>
-                       <div className="menyu_item">
-                           <div className="menyu_item2">
-                               <p>Fast Food</p>
-                               <p>Pitsalar</p>
-                               <p>kombo</p>
-                               <p>ichimliklar</p>
-                               <p>Salatlar</p>
-                               <p>Sous</p>
-                           </div> 
-                       </div>
-                </div>
+                  <div className="Anqara">
+                      <img src={Anqara} alt="" />
+                      <div className="container-sm">
+                          <div className="menyu_restorand">
+                              <div className="menyu_content01">
+                                    <div className="menyu_content">
+                                        <div className="menyu_content1">
+                                            <p onClick={() => setMenu("Cheeseburger With Salad")}>nimadir</p>
+                                        </div>
+                                    </div>
+                                    <div className="menyu_content">
+                                        <div className="menyu_content1">
+                                            <p onClick={() => setMenu("Burger")}>nimadir</p>
+                                        </div>
+                                    </div>
+                                    <div className="menyu_content">
+                                        <div className="menyu_content1">
+                                            <p onClick={() => setMenu("sendivich")}>nimadir</p>
+                                        </div>
+                                    </div>
+                                    <div className="menyu_content">
+                                        <div className="menyu_content1">
+                                            <p onClick={() => setMenu("Lavash")}>nimadir</p>
+                                        </div>
+                                    </div>
+                              </div>
+                              
+                          </div>
+                      </div>
+                  </div>
             </nav>
+
+            <div className="menu_component"> 
+            
+                 {
+                    menu === 'Cheeseburger With Salad'?
+                    ( <MenuComponent 
+                     image={gamburger1} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$15.99"
+                     />):
+     
+                     menu === 'Burger'?
+                     (<MenuComponent 
+                     image={gamburger3} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$17.45"
+                     />):
+     
+                     menu === 'sendivich'?
+                    ( <MenuComponent 
+                     image={gamburger5} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$10.00"
+                     />):
+     
+                     menu === 'Lavash'?
+                    ( <MenuComponent 
+                     image={gamburger1} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$12.85"
+                     />):
+     
+                     menu === 'Cheeseburger With Salad'?
+                   (  <MenuComponent 
+                     image={gamburger4} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$14.78"
+                     />):
+     
+                     menu === 'Cheeseburger With Salad'?
+                    ( <MenuComponent 
+                     image={gamburger4} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$22.15"
+                     />):
+     
+                     menu === 'Cheeseburger With Salad'?
+                     ( <MenuComponent 
+                     image={gamburger4} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$66.00"
+                     />):
+     
+                     menu ==='Cheeseburger With Salad'?
+                    (  <MenuComponent 
+                     image={gamburger4} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$13.95"
+                     />):
+     
+                     menu === 'Cheeseburger With Salad'?
+                    (  <MenuComponent 
+                     image={gamburger4} 
+                     ranking={star}
+                     title="Cheeseburger With Salad"
+                     price="$17.32"
+                     />): null
+                }
+           </div>
         </>
     );
 }

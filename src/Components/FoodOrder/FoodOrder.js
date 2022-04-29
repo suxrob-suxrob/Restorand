@@ -26,9 +26,9 @@ const FoodOrder = (props) => {
 
     return (
         <>  
-        <div className="container-fluid">
-            <div className="container-xxl red-container">
-                <div>
+     
+        <div className="red-container">
+                <div className="bonda">
                     <div className="bond px-5">
                         <h1>{props.data.title}</h1>
                         <p>{props.data.text}</p>
@@ -39,8 +39,8 @@ const FoodOrder = (props) => {
                     </div>
                 </div>  
             </div> 
+        <div className="container-fluid">
                <h4>{props.data.text3}</h4>
-
             <div className="container8-fluid">
                 <div className="royxat_commponent">
                     <div className="royxatlar_content">
@@ -91,9 +91,11 @@ const FoodOrder = (props) => {
                 </div>
 
             </div>
-            
-            
+
         </div>    
+
+        
+        
         <div className="royxat_com2">
                  {
                         name === 'burger'? 

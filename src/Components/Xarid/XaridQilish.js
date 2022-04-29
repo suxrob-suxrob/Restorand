@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+// import { useNavigate } from "react-router-dom";
 import './xarid.scss';
 // import burgerg from "../src/Components/img/burgerMenu.png"
 import burgerg from "../img/burgerMenu.png"
@@ -20,14 +21,14 @@ const Xarid = () => {
                         <p>Obmen</p>
                         <div className="product_radio1">
                             <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                            <label className="form-check-label" htmlfor="flexRadioDefault1">
+                            <label className="form-check-label" htmlFor="flexRadioDefault1">
                                  <span>Стандарт</span>  
                             </label>
                             <hr />
                         </div>
                         <div className="product_radio2">
                             <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"/>
-                               <label className="form-check-label" htmlfor="flexRadioDefault2">
+                               <label className="form-check-label" htmlFor="flexRadioDefault2">
                                  <span>Bigger</span>
                                </label>
                               <hr />

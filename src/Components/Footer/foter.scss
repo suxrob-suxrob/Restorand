@@ -1,10 +1,10 @@
 .container2-fluid {
-    width: 1253px;
+    min-width: 1254px;
     background: linear-gradient(157deg, #002 39%, #005862 90.33%);
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     .KA1 {
-        width: 1240px;
+        // width: 1240px;
         color: wheat;
         display: flex;
         justify-content: space-evenly;
@@ -93,7 +93,8 @@
     }
 }
 .counter-fluid {
-    width: 1253px;
+    min-width: 1254px;
+    margin: 0 auto;
      background: linear-gradient(145deg, #132 39%, #00597D 84.33%);
      .li {
         //  width: 100%;
